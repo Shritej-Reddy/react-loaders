@@ -12,7 +12,7 @@ function App() {
 
   const [loader, setLoader] = useState(1)
 
-  const timerId = setInterval(() => {
+  setInterval(() => {
     let GameStateTemp = loader;
     GameStateTemp = GameStateTemp + 1;
     if (GameStateTemp === 7) {

@@ -15,7 +15,7 @@ function App() {
   const timerId = setInterval(() => {
     let GameStateTemp = loader;
     GameStateTemp = GameStateTemp + 1;
-    if (GameStateTemp == 7) {
+    if (GameStateTemp === 7) {
       GameStateTemp = 1;
     }
     setLoader(GameStateTemp);
